@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MNCAppsBody : UIView
 
 - (void)invalidateiPadView;
-- (instancetype)initWithFrame:(CGRect)frame RequestItem:(MNCAppsRequest*)requestItem;
+- (instancetype)initWithFrame:(CGRect)frame RequestItem:(MNCAppsRequest*)request;
 @end
 
 NS_ASSUME_NONNULL_END

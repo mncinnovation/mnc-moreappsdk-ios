@@ -12,7 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MNCAppsScreen : UIViewController
-- (instancetype)initWithRequestItem:(MNCAppsRequest*)requestItem;
+- (instancetype)initWithRequestItem:(MNCAppsRequest*)request;
 @end
 
 NS_ASSUME_NONNULL_END
