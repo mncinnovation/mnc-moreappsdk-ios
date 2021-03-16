@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MNCRequestItem : NSObject{
+@interface MNCAppsRequest : NSObject{
     NSString *userid;
     NSString *bundleid;
     NSString *language;
