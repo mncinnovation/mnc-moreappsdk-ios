@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
     NSString *userid;
     NSString *bundleid;
     NSString *language;
-    int timeToFetch;
+    int intervals;
 }
 
 - (NSString *)getUserID;
@@ -23,12 +23,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)getBundleid;
 - (void)setBundleid:(NSString *)string;
 
-- (int)getTimeToFetch;
-- (void)setTimeToFetch:(int)value;
+- (int)getIntervals;
+- (void)setIntervals:(int)value;
 
 - (NSString *)getLanguage;
 - (void)setLanguage:(NSString *)string;
-
 
 @end
 
