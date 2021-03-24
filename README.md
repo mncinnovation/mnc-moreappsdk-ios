@@ -61,9 +61,9 @@ body.setDarkMode(false)
 self.view.addSubview(body)
 ```
 
-## Instalation
+## Installation
 
-For instalation is recomended using Cocoapods.
+For installation is recomended using Cocoapods.
 
 #### CocoaPods
 
