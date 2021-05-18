@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)invalidateiPadView;
 
+- (void)setPresentedByScreen:(BOOL)state;
+
 - (void)setDarkMode:(BOOL)state;
 
 - (instancetype)initWithFrame:(CGRect)frame andRequest:(MNCAppsRequest *)request;
