@@ -69,13 +69,13 @@ For installation is recomended using Cocoapods.
 
 ```ruby
 target 'MyApp' do
-  pod 'MNCAppsSDK', '1.0.1'
+  pod 'MNCAppsSDK', '1.0.2'
 end
 ```
 
 #### XCode Setup
 
-For MNCAppsSDK version `1.0.1`, please set `Enable Bitcode` to `NO` in your Project's Build Setting.
+For MNCAppsSDK version `1.0.1` or below, please set `Enable Bitcode` to `NO` in your Project's Build Setting.
 
 And then, you need to add `LSApplicationQueriesSchemes` in your `.plist` file :
 
